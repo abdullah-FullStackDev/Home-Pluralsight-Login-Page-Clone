@@ -46,16 +46,27 @@ body{
 .wi{
   width: 200px;
 }
-@media (min-width:1200px){
-  #right{
-   flex: 6;
+  @media (min-width: 1200px) {
+    #left {
+      flex: 4;
+    }
+  
+    #right {
+      flex: 6;
+    }
   }
-#left{
-  flex: 4;
-}
-  }
-  @media (max-width:760px){
-    #right{
+  
+  @media (max-width: 768px) {
+    body {
+      overflow: auto;
+    }
+  
+    #left {
+      justify-content: flex-start;
+      margin-top: 4vh;
+    }
+  
+    #right {
       display: none;
-     }
+    }
   }
