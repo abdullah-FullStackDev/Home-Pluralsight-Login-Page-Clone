@@ -3,13 +3,15 @@
 * {
   box-sizing: border-box;
 }
+body{
+  color: #fff;
+}
 #left{
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #181818;
     color: #fff;
+    min-height: 100vh;
 }
 .secondary-btn {
   padding: 0.7rem 1rem;
@@ -26,5 +28,34 @@
   transition: all 0.5s;
 }
 .secondary-btn:hover{
-  background-color: orangered;
+  color: orangered;
+  border: 1px orangered solid;
 }
+#right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg) no-repeat center center / cover;
+  height: 100vh;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.wi{
+  width: 200px;
+}
+@media (min-width:1200px){
+  #right{
+   flex: 6;
+  }
+#left{
+  flex: 4;
+}
+  }
+  @media (max-width:760px){
+    #right{
+      display: none;
+     }
+  }
