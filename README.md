@@ -10,7 +10,7 @@ this is made with html5 and css3
 
 ## Live Demo
 
-[Live Demo Link](https://abdullah-fullstackdev.github.io/learning-page-2.0/)
+[Live Demo Link](https://abdullah-fullstackdev.github.io/Home-Pluralsight-Login-Page-Clone/)
 
 ## Getting Started
 
