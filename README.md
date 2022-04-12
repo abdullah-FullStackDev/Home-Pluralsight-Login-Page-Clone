@@ -2,7 +2,7 @@
 this is made with html5 and css3
 > This project consists of building a Home-Pluralsight-Login-Page-Clone, to understand the use of css frameworks, in this project i used HTML5/CSS3 for making the front-end of this web-site and i wanted to know how HTML5/CSS3 works.
 
-![Alt text](https://github.com/abdullah-FullStackDev/learning-page-2.0/blob/main/Screenshot%20(43).png)
+![Alt text](https://github.com/abdullah-FullStackDev/Home-Pluralsight-Login-Page-Clone/blob/main/ss(of%20webpage).png)
 
 ## Built With
 
